@@ -1,8 +1,8 @@
 # App Info
 
-This app is used for reactive forms tutorial using angular.
+This is a simple app used for analysis of word count, no. of vowels, longest word length and shortest word length in the text entered in the input field.
 
-# ReactiveFormsTutorial
+# Forms
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 

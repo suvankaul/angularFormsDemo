@@ -1,0 +1,39 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1>
+        Welcome to {{ title }}!
+    </h1>
+    <input [(ngModel)]="name" #data type="text">
+    <!-- <input #data type="text"> -->
+    <button (click)="submit(data.value)">Submit</button>
+    <table>
+        <tr>
+            <td>Your Text</td>
+            <td>{{name}}</td>
+        </tr>
+        <tr>
+            <td>Word Count</td>
+            <td>{{words}}</td>
+        </tr>
+        <tr>
+            <td>No of Vowels</td>
+            <td>{{vowels}}</td>
+        </tr>
+        <tr>
+            <td>Longest Word Length</td>
+            <td>{{longest_l}}</td>
+        </tr>
+        <tr>
+            <td>Shortest Word Length</td>
+            <td>{{shortest_l}}</td>
+        </tr>
+    </table>
+</div>
+<!-- <p>{{name}}</p>
+    <p>WC {{words}}</p>
+    <p>No of Vowels {{vowels}}</p>
+    <p>Longest Word Length {{longest_l}}</p>
+    <p>Shortest Word Length {{shortest_l}}</p> -->
+
+
+<router-outlet></router-outlet>
